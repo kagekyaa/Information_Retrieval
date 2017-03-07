@@ -1,0 +1,87 @@
+Author    : Kevin Permana,Cesar Eduardo Tejada,Jason Nghe
+UCInet ID : 50259184_79277676_77653453
+----------------------------------------------------------
+Downloaded                   = 4001
+Total Number of invalids     = 194593
+Page with most outgoing link = http://archive.ics.uci.edu/ml/datasets.html
+Number of outgoing links     = 1136
+----------------------------------------------------------
+Subdomain                    : # of unique paths
+
+www.ics.uci.edu              : 6148
+duttgroup.ics.uci.edu        : 415
+vision.ics.uci.edu           : 145
+ngs.ics.uci.edu              : 114
+emj.ics.uci.edu              : 106
+fano.ics.uci.edu             : 102
+archive.ics.uci.edu          : 90
+sdcl.ics.uci.edu             : 74
+evoke.ics.uci.edu            : 70
+sprout.ics.uci.edu           : 67
+graphics.ics.uci.edu         : 62
+computableplant.ics.uci.edu  : 60
+mondego.ics.uci.edu          : 49
+seal.ics.uci.edu             : 43
+sli.ics.uci.edu              : 37
+cml.ics.uci.edu              : 35
+students.ics.uci.edu         : 35
+ftp.ics.uci.edu              : 27
+flamingo.ics.uci.edu         : 27
+isg.ics.uci.edu              : 24
+cert.ics.uci.edu             : 19
+hombao.ics.uci.edu           : 18
+grape.ics.uci.edu            : 17
+jgarcia.ics.uci.edu          : 17
+www-db.ics.uci.edu           : 16
+chenli.ics.uci.edu           : 15
+honors.ics.uci.edu           : 13
+asterix.ics.uci.edu          : 12
+mhcid.ics.uci.edu            : 12
+pregelix.ics.uci.edu         : 10
+isr.uci.edu                  : 10
+ironwood.ics.uci.edu         : 10
+frost.ics.uci.edu            : 8
+dynamo.ics.uci.edu           : 8
+sconce.ics.uci.edu           : 8
+testlab.ics.uci.edu          : 7
+jujube.ics.uci.edu           : 7
+i-sensorium.ics.uci.edu      : 6
+malek.ics.uci.edu            : 6
+mlearn.ics.uci.edu           : 6
+sherlock.ics.uci.edu         : 6
+esl.ics.uci.edu              : 6
+fr.ics.uci.edu               : 5
+cloudberry.ics.uci.edu       : 5
+ipubmed.ics.uci.edu          : 4
+www.michaelfranz.com         : 4
+cbcl.ics.uci.edu             : 4
+www.stat.uci.edu             : 4
+hobbes.ics.uci.edu           : 4
+xtune.ics.uci.edu            : 4
+www.cs.uci.edu               : 3
+sourcerer.ics.uci.edu        : 3
+radicle.ics.uci.edu          : 3
+elms.ics.uci.edu             : 2
+auge.ics.uci.edu             : 2
+asterixdb.ics.uci.edu        : 2
+sparcfire.ics.uci.edu        : 2
+w3.ics.uci.edu               : 2
+graphmod.ics.uci.edu         : 2
+lolth.ics.uci.edu            : 2
+chime.ics.uci.edu            : 2
+www.informatics.uci.edu      : 1
+www.artifex.org              : 1
+www.igb.uci.edu              : 1
+ganglia.ics.uci.edu          : 1
+codeexchange.ics.uci.edu     : 1
+garymolson.com               : 1
+login.uci.edu                : 1
+luci.ics.uci.edu             : 1
+vcp.ics.uci.edu              : 1
+tastier.ics.uci.edu          : 1
+wics.ics.uci.edu             : 1
+ppopp2013.ics.uci.edu        : 1
+wildhog.ics.uci.edu          : 1
+sites.uci.edu                : 1
+psearch.ics.uci.edu          : 1
+##########################################################
