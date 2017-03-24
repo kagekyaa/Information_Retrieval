@@ -1,0 +1,52 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+GET _search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET /_mapping?pretty=true
+GET /_cat/indices?v
+GET /folder/_search?pretty=true&q=*:*
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Queries example:
+https://github.com/ernestorx/es-swapi-test/blob/master/ES%20notebook.ipynb
+
+Best_fields:
+https://www.elastic.co/guide/en/elasticsearch/guide/current/_best_fields.html
+
+Bool:
+https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html
+
+Size:
+https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-from-size.html
+
+Boosting: 
+https://www.voxxed.com/blog/2014/12/advanced-scoring-elasticsearch/
+
+https://www.elastic.co/guide/en/elasticsearch/guide/current/boosting-by-popularity.html
+
+https://www.elastic.co/guide/en/elasticsearch/guide/current/multi-match-query.html
+
+GET /html_only/_search?pretty
+{
+  "size" : 10,
+  "query": {
+    "function_score": { 
+      "query": { 
+        "multi_match": {
+          "query":"jim jones",
+          "fields": [ "title^5", "heading^3","bold^2", "text^1", "meta_key^2", "meta_author^5", "meta_description^3" ],
+          "type" : "phrase"
+        }
+      }
+    }
+  }
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Reference:
+http://stackoverflow.com/questions/8829468/elasticsearch-query-to-return-all-records

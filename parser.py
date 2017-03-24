@@ -31,7 +31,7 @@ def parse_files():
 
     # limit iteration for testing (only process my_limit amount of files):
     count = 0
-    my_limit = 1000
+    my_limit = 10000
 
     # web pages location :
     my_path = 'C:/Users/Kyaa/Documents/GitHub/121ICS_SearchEngine/WEBPAGES_RAW/'
